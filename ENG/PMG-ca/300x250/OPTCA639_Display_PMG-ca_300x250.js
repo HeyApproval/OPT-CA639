@@ -27,35 +27,35 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_5 = function() {
+(lib.CachedBmp_47 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_300x250_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_4 = function() {
+(lib.CachedBmp_46 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_300x250_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_3 = function() {
+(lib.CachedBmp_45 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_300x250_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2 = function() {
+(lib.CachedBmp_44 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_300x250_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1 = function() {
+(lib.CachedBmp_43 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_300x250_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
@@ -97,7 +97,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_5();
+	this.instance = new lib.CachedBmp_47();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -165,7 +165,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// i2
-	this.instance = new lib.CachedBmp_4();
+	this.instance = new lib.CachedBmp_46();
 	this.instance.setTransform(5.5,63.75,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(244));
@@ -195,7 +195,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_3();
+	this.instance = new lib.CachedBmp_45();
 	this.instance.setTransform(-144.5,-56.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -218,7 +218,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_2();
+	this.instance = new lib.CachedBmp_44();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -240,7 +240,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// type
-	this.instance = new lib.CachedBmp_1();
+	this.instance = new lib.CachedBmp_43();
 	this.instance.setTransform(-44.15,-25.9,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -257,7 +257,7 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.CTA, new cjs.Rectangle(-44.1,-28,94.1,25), null);
 
 
-(lib.Bkgd_PillRGB01ai = function(mode,startPosition,loop,reversed) {
+(lib.Bkgd_CircleRGB01ai = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -268,9 +268,9 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Bkgd_Pill-RGB-01.ai
+	// Bkgd_Circle-RGB-01.ai
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#D2F5F9").s().p("EgvvAvvMAAAgvvQABptDwo4QDoojGmmoQGommIjjoQI4jwJtgBQJuABI4DwQIjDoGoGmQGmGoDoIjQDxI4gBJtMAAAAvvg");
+	this.shape.graphics.f("#D2F5F9").s().p("EgSlAr/QojjomommQmmmojoojQjwo4gBpuQABptDwo4QDoojGmmoQGommIjjoQI4jwJtgBQJuABI4DwQIjDoGoGmQGmGoDoIjQDxI4gBJtQABJujxI4QjoIjmmGoQmoGmojDoQo4DxpugBQptABo4jxg");
 	this.shape.setTransform(305.55,305.55);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -408,26 +408,26 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(180).to({_off:false},0).to({y:230},6,cjs.Ease.quadOut).wait(1));
 
-	// CTA
-	this.instance_1 = new lib.CTA();
-	this.instance_1.setTransform(54.6,293,1,1,0,0,0,0,10);
+	// PIC
+	this.instance_1 = new lib.PIC();
+	this.instance_1.setTransform(193.15,372.1,0.77,0.77,0,0,0,0.2,0.4);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(174).to({_off:false},0).to({y:123},10,cjs.Ease.quadOut).wait(3));
-
-	// PIC
-	this.instance_2 = new lib.PIC();
-	this.instance_2.setTransform(198.8,372.1,0.68,0.68,0,0,0,0.1,0.4);
-	this.instance_2._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(158).to({_off:false},0).to({regY:0.1,x:198.85,y:202},18,cjs.Ease.quadOut).wait(11));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(158).to({_off:false},0).to({regX:0.1,regY:0.2,x:193.1,y:182.15},18,cjs.Ease.quadOut).wait(11));
 
 	// pill
-	this.instance_3 = new lib.Bkgd_PillRGB01ai("synched",0);
-	this.instance_3.setTransform(202.4,329.4,0.2596,0.2596,0,0,0,305.8,305.8);
+	this.instance_2 = new lib.Bkgd_CircleRGB01ai("synched",0);
+	this.instance_2.setTransform(249.95,408.9,0.5,0.5,0,0,0,305.9,305.8);
+	this.instance_2._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(150).to({_off:false},0).to({regX:306,regY:306.2,x:250,y:247.1},15,cjs.Ease.quadOut).wait(22));
+
+	// CTA
+	this.instance_3 = new lib.CTA();
+	this.instance_3.setTransform(54.6,293,1,1,0,0,0,0,10);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(150).to({_off:false},0).to({y:187.1},15,cjs.Ease.quadOut).wait(22));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(174).to({_off:false},0).to({y:123},10,cjs.Ease.quadOut).wait(3));
 
 	// SUB
 	this.instance_4 = new lib.SUB();
@@ -466,7 +466,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(141.5,-167,171,667);
+p.nominalBounds = new cjs.Rectangle(141.5,-167,261.2,728.6);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -476,7 +476,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPTCA639_Display_PMG_ca_300x250_atlas_1.png?1688413217295", id:"OPTCA639_Display_PMG_ca_300x250_atlas_1"}
+		{src:"images/OPTCA639_Display_PMG_ca_300x250_atlas_1.png", id:"OPTCA639_Display_PMG_ca_300x250_atlas_1"}
 	],
 	preloads: []
 };

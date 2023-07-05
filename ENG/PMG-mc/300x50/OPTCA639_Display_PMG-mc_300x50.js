@@ -27,28 +27,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_33 = function() {
+(lib.CachedBmp_69 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_mc_300x50_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_32 = function() {
+(lib.CachedBmp_68 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_mc_300x50_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_31 = function() {
+(lib.CachedBmp_67 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_mc_300x50_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_30 = function() {
+(lib.CachedBmp_66 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_mc_300x50_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -83,7 +83,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_33();
+	this.instance = new lib.CachedBmp_69();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -136,7 +136,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// i2
-	this.instance = new lib.CachedBmp_32();
+	this.instance = new lib.CachedBmp_68();
 	this.instance.setTransform(5.5,-21.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(244));
@@ -166,7 +166,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_2
-	this.instance = new lib.CachedBmp_31();
+	this.instance = new lib.CachedBmp_67();
 	this.instance.setTransform(-144.5,-21.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -189,7 +189,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_30();
+	this.instance = new lib.CachedBmp_66();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));

@@ -27,35 +27,35 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_10 = function() {
+(lib.CachedBmp_33 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_728x90_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_9 = function() {
+(lib.CachedBmp_32 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_728x90_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_8 = function() {
+(lib.CachedBmp_31 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_728x90_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_7 = function() {
+(lib.CachedBmp_30 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_728x90_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_29 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_728x90_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
@@ -97,7 +97,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_10();
+	this.instance = new lib.CachedBmp_33();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -165,7 +165,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// i2
-	this.instance = new lib.CachedBmp_9();
+	this.instance = new lib.CachedBmp_32();
 	this.instance.setTransform(-323.2,-39,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(244));
@@ -194,7 +194,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_8();
+	this.instance = new lib.CachedBmp_31();
 	this.instance.setTransform(-351.95,-39,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -217,7 +217,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_7();
+	this.instance = new lib.CachedBmp_30();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -239,7 +239,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// type
-	this.instance = new lib.CachedBmp_6();
+	this.instance = new lib.CachedBmp_29();
 	this.instance.setTransform(-44.15,-25.9,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -419,14 +419,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_2.setTransform(477.85,195.55,0.6484,0.6484,0,0,0,0.2,0.3);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(158).to({_off:false},0).to({y:94.4},18,cjs.Ease.quadOut).wait(11));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(158).to({_off:false},0).to({y:81.4},18,cjs.Ease.quadOut).wait(11));
 
 	// pill
 	this.instance_3 = new lib.Bkgd_CircleRGB01ai("synched",0);
-	this.instance_3.setTransform(479.45,171.9,0.2679,0.2679,0,0,0,306.8,306.8);
+	this.instance_3.setTransform(479.55,218.95,0.3456,0.3456,0,0,0,307,306.9);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(150).to({_off:false},0).to({y:89.4},15,cjs.Ease.quadOut).wait(22));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(150).to({_off:false},0).to({y:112.55},15,cjs.Ease.quadOut).wait(22));
 
 	// SUB
 	this.instance_4 = new lib.SUB();
@@ -465,7 +465,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(362.9,-163.6,370.30000000000007,445.20000000000005);
+p.nominalBounds = new cjs.Rectangle(362.9,-176.6,370.30000000000007,500.70000000000005);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -475,7 +475,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPTCA639_Display_PMG_ca_728x90_atlas_1.png?1688412616640", id:"OPTCA639_Display_PMG_ca_728x90_atlas_1"}
+		{src:"images/OPTCA639_Display_PMG_ca_728x90_atlas_1.png", id:"OPTCA639_Display_PMG_ca_728x90_atlas_1"}
 	],
 	preloads: []
 };

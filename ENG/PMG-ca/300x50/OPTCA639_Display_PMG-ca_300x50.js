@@ -27,28 +27,28 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_9 = function() {
+(lib.CachedBmp_42 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_300x50_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_8 = function() {
+(lib.CachedBmp_41 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_300x50_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_7 = function() {
+(lib.CachedBmp_40 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_300x50_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_6 = function() {
+(lib.CachedBmp_39 = function() {
 	this.initialize(ss["OPTCA639_Display_PMG_ca_300x50_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
@@ -83,7 +83,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_9();
+	this.instance = new lib.CachedBmp_42();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -136,7 +136,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// i2
-	this.instance = new lib.CachedBmp_8();
+	this.instance = new lib.CachedBmp_41();
 	this.instance.setTransform(5.5,-21.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(244));
@@ -166,7 +166,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_2
-	this.instance = new lib.CachedBmp_7();
+	this.instance = new lib.CachedBmp_40();
 	this.instance.setTransform(-144.5,-21.25,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -189,7 +189,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.CachedBmp_6();
+	this.instance = new lib.CachedBmp_39();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -363,7 +363,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPTCA639_Display_PMG_ca_300x50_atlas_1.png?1688413172426", id:"OPTCA639_Display_PMG_ca_300x50_atlas_1"}
+		{src:"images/OPTCA639_Display_PMG_ca_300x50_atlas_1.png", id:"OPTCA639_Display_PMG_ca_300x50_atlas_1"}
 	],
 	preloads: []
 };
